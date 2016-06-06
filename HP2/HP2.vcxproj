@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release2|Win32">
+      <Configuration>Release2</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release2|x64">
+      <Configuration>Release2</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1D50EF25-1FEB-44F6-9C25-D3A0635B1B9D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>HP2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release2|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release2|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release2|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release2|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release2|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\libfftpack;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\c_utils;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\cxxsupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release2|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\libfftpack;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\c_utils;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\cxxsupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\libfftpack;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\c_utils;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\cxxsupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\announce.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\error_handling.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\fitshandle.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\geom_utils.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\ls_image.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\paramfile.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\pointing.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\rotmatrix.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\string_utils.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\trafos.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\walltimer.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\wigner.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\c_utils\c_utils.c" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\c_utils\walltime_c.c" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\alm.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\alm2map_cxx_module.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\alm_fitsio.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\alm_healpix_tools.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\alm_powspec_tools.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\anafast_cxx_module.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\calc_powspec_module.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_base.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_data_io.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_map.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_map_fitsio.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_tables.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\hotspots_cxx_module.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\map2tga_module.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\median_filter_cxx_module.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\moc_fitsio.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\moc_query.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\mult_alm_module.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\powspec.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\powspec_fitsio.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\smoothing_cxx_module.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\syn_alm_cxx_module.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\udgrade_cxx_module.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\udgrade_harmonic_cxx_module.cc" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\libfftpack\bluestein.c" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\libfftpack\fftpack.c" />
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\libfftpack\ls_fft.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\alloc_utils.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\announce.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\arr.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\bstream.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\colour.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\compress_utils.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\datatypes.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\error_handling.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\fftpack_support.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\fitshandle.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\geom_utils.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\levels_facilities.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\linear_map.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\lsconstants.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\ls_image.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\math_utils.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\openmp_support.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\paramfile.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\planck_rng.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\pointing.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\rangeset.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\rotmatrix.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\safe_cast.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\safe_ptr.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\share_utils.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\sort_utils.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\sse_utils_cxx.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\string_utils.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\trafos.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\vec3.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\walltimer.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\wigner.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\xcomplex.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\c_utils\c_utils.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\c_utils\sse_utils.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\c_utils\walltime_c.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\alm.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\alm_fitsio.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\alm_healpix_tools.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\alm_powspec_tools.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_base.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_data_io.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_map.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_map_fitsio.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_tables.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\moc.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\moc_fitsio.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\moc_query.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\powspec.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\powspec_fitsio.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\libfftpack\bluestein.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\libfftpack\fftpack.h" />
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\libfftpack\ls_fft.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Dependencies\Healpix_3.30_2015Oct08.zip" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

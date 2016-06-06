@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{7239f33b-163d-4569-be10-1a3535652ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c_utils">
+      <UniqueIdentifier>{e89bd5ea-3075-48cb-b2fc-42dfc1f1abee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cxxsupport">
+      <UniqueIdentifier>{150f13a4-fadb-46f2-84c1-b6275764e2cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libfftpack">
+      <UniqueIdentifier>{1283570e-e60e-4019-b6cc-0f8a54ce14a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\alm.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\alm2map_cxx_module.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\alm_fitsio.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\alm_healpix_tools.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\alm_powspec_tools.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\anafast_cxx_module.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\calc_powspec_module.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_base.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_data_io.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_map.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_map_fitsio.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_tables.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\hotspots_cxx_module.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\map2tga_module.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\median_filter_cxx_module.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\moc_fitsio.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\moc_query.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\mult_alm_module.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\powspec.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\powspec_fitsio.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\smoothing_cxx_module.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\syn_alm_cxx_module.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\udgrade_cxx_module.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\udgrade_harmonic_cxx_module.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\c_utils\c_utils.c">
+      <Filter>c_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\c_utils\walltime_c.c">
+      <Filter>c_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\announce.cc">
+      <Filter>cxxsupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\error_handling.cc">
+      <Filter>cxxsupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\fitshandle.cc">
+      <Filter>cxxsupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\geom_utils.cc">
+      <Filter>cxxsupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\ls_image.cc">
+      <Filter>cxxsupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\paramfile.cc">
+      <Filter>cxxsupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\pointing.cc">
+      <Filter>cxxsupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\rotmatrix.cc">
+      <Filter>cxxsupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\string_utils.cc">
+      <Filter>cxxsupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\trafos.cc">
+      <Filter>cxxsupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\walltimer.cc">
+      <Filter>cxxsupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\wigner.cc">
+      <Filter>cxxsupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\libfftpack\bluestein.c">
+      <Filter>libfftpack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\libfftpack\fftpack.c">
+      <Filter>libfftpack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\libfftpack\ls_fft.c">
+      <Filter>libfftpack</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\alm.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\alm_fitsio.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\alm_healpix_tools.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\alm_powspec_tools.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_base.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_data_io.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_map.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_map_fitsio.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\healpix_tables.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\moc.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\moc_fitsio.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\moc_query.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\powspec.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx\powspec_fitsio.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\c_utils\c_utils.h">
+      <Filter>c_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\c_utils\sse_utils.h">
+      <Filter>c_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\c_utils\walltime_c.h">
+      <Filter>c_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\alloc_utils.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\announce.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\arr.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\bstream.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\colour.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\compress_utils.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\datatypes.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\error_handling.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\fftpack_support.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\fitshandle.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\geom_utils.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\levels_facilities.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\linear_map.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\lsconstants.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\ls_image.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\math_utils.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\openmp_support.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\paramfile.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\planck_rng.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\pointing.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\rangeset.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\rotmatrix.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\safe_cast.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\safe_ptr.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\share_utils.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\sort_utils.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\sse_utils_cxx.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\string_utils.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\trafos.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\vec3.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\walltimer.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\wigner.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\cxxsupport\xcomplex.h">
+      <Filter>cxxsupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\libfftpack\bluestein.h">
+      <Filter>libfftpack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\libfftpack\fftpack.h">
+      <Filter>libfftpack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dependencies\Healpix_3.30\src\cxx\libfftpack\ls_fft.h">
+      <Filter>libfftpack</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Dependencies\Healpix_3.30_2015Oct08.zip">
+      <Filter>base</Filter>
+    </None>
+  </ItemGroup>
+</Project>
