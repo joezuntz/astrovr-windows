@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx;h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="AstroVR">
+      <UniqueIdentifier>{21c81169-10f9-42ed-bb09-dfea784cb392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\sphere">
+      <UniqueIdentifier>{7266db7d-9aea-43f4-9849-77050bc0b758}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="source\resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="source\resources\modern_style.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="source\resources\main_icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\better_system_defaults\modern_style_initialization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_catalog.cc">
+      <Filter>AstroVR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_fits.cc">
+      <Filter>AstroVR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_gl.cc">
+      <Filter>AstroVR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_image.cc">
+      <Filter>AstroVR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_object.cc">
+      <Filter>AstroVR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_sphere.cc">
+      <Filter>AstroVR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_test.cc">
+      <Filter>AstroVR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\color_map.cc">
+      <Filter>AstroVR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_win_image.cc">
+      <Filter>AstroVR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_oculus.cc">
+      <Filter>AstroVR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_healpix.cc">
+      <Filter>AstroVR</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\better_system_defaults\windows_h.config.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\better_system_defaults\no_sillywarnings_please.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_catalog.hh">
+      <Filter>AstroVR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_fits.hh">
+      <Filter>AstroVR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_gl.hh">
+      <Filter>AstroVR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_image.hh">
+      <Filter>AstroVR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_sphere.hh">
+      <Filter>AstroVR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_test.hh">
+      <Filter>AstroVR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\color_map.hh">
+      <Filter>AstroVR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_win_image.hh">
+      <Filter>AstroVR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_oculus.hh">
+      <Filter>AstroVR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_object.hh">
+      <Filter>AstroVR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_healpix.hh">
+      <Filter>AstroVR</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\GitHubVisualStudio\astrovr\shaders\sphere\vertex.shader">
+      <Filter>Resource Files\sphere</Filter>
+    </None>
+    <None Include="..\..\..\..\GitHubVisualStudio\astrovr\shaders\sphere\fragment.shader">
+      <Filter>Resource Files\sphere</Filter>
+    </None>
+  </ItemGroup>
+</Project>

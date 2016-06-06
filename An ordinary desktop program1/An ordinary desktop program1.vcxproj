@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release2|Win32">
+      <Configuration>Release2</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release2|x64">
+      <Configuration>Release2</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{41BE9514-737F-4307-9DD2-6894E1295E9B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>An_ordinary_desktop_program1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <ProjectName>AstroVR1</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release2|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release2|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release2|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release2|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\source;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release2|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\source;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\source;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release2|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\source;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)\source;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)\source;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ForcedIncludeFiles>iso646.h;better_system_defaults/no_sillywarnings_please.hpp;better_system_defaults/windows_h.config.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <TreatSpecificWarningsAsErrors>4627</TreatSpecificWarningsAsErrors>
+      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>user32.lib;comctl32.lib;cfitsio.lib;glew32s.lib;glfw3.lib;opengl32.lib;libpng.lib;zlib.lib</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <AdditionalLibraryDirectories>C:\Users\Joe Zuntz\Documents\usr\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NO_DEFAULT_MANIFEST=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release2|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ForcedIncludeFiles>iso646.h;better_system_defaults/no_sillywarnings_please.hpp;better_system_defaults/windows_h.config.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <TreatSpecificWarningsAsErrors>4627</TreatSpecificWarningsAsErrors>
+      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>user32.lib;comctl32.lib;cfitsio.lib;glew32s.lib;glfw3.lib;opengl32.lib;libpng.lib;zlib.lib</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <AdditionalLibraryDirectories>C:\Users\Joe Zuntz\Documents\usr\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NO_DEFAULT_MANIFEST=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <ForcedIncludeFiles>iso646.h;better_system_defaults/no_sillywarnings_please.hpp;better_system_defaults/windows_h.config.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4627</TreatSpecificWarningsAsErrors>
+      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\cxxsupport;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx;C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Include;C:\Users\Joe Zuntz\Documents\GitHubVisualStudio\astrovr;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\Samples\OculusRoomTiny_Advanced\Common;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVRKernel\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <AdditionalDependencies>user32.lib;comctl32.lib;cfitsio.lib;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVRKernel\Lib\Windows\x64\Debug\VS2015\LibOVRKernel.lib;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Lib\Windows\x64\Debug\VS2015\LibOVR.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\An ordinary desktop program1\x64\Debug;C:\Users\Joe Zuntz\Documents\usr\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NO_DEFAULT_MANIFEST=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <CustomBuildStep>
+      <Command>
+      </Command>
+    </CustomBuildStep>
+    <PostBuildEvent>
+      <Command>copy "C:\Users\Joe Zuntz\Documents\usr\lib\*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release2|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <ForcedIncludeFiles>iso646.h;better_system_defaults/no_sillywarnings_please.hpp;better_system_defaults/windows_h.config.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4627</TreatSpecificWarningsAsErrors>
+      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\cxxsupport;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx;C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Include;C:\Users\Joe Zuntz\Documents\GitHubVisualStudio\astrovr;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\Samples\OculusRoomTiny_Advanced\Common;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVRKernel\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <AdditionalDependencies>user32.lib;comctl32.lib;cfitsio.lib;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVRKernel\Lib\Windows\x64\Release\VS2015\LibOVRKernel.lib;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Lib\Windows\x64\Release\VS2015\LibOVR.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\An ordinary desktop program1\x64\Release2;C:\Users\Joe Zuntz\Documents\usr\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NO_DEFAULT_MANIFEST=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <CustomBuildStep>
+      <Command>
+      </Command>
+    </CustomBuildStep>
+    <PostBuildEvent>
+      <Command>copy "C:\Users\Joe Zuntz\Documents\usr\lib\*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ForcedIncludeFiles>iso646.h;better_system_defaults/no_sillywarnings_please.hpp;better_system_defaults/windows_h.config.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <TreatSpecificWarningsAsErrors>4627</TreatSpecificWarningsAsErrors>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>user32.lib;comctl32.lib</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NO_DEFAULT_MANIFEST=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <ForcedIncludeFiles>iso646.h;better_system_defaults/no_sillywarnings_please.hpp;better_system_defaults/windows_h.config.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4627</TreatSpecificWarningsAsErrors>
+      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\cxxsupport;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx;C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Include;C:\Users\Joe Zuntz\Documents\GitHubVisualStudio\astrovr;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\Samples\OculusRoomTiny_Advanced\Common;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVRKernel\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <AdditionalDependencies>user32.lib;comctl32.lib;cfitsio.lib;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVRKernel\Lib\Windows\x64\Release\VS2015\LibOVRKernel.lib;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Lib\Windows\x64\Release\VS2015\LibOVR.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\An ordinary desktop program1\x64\Release;C:\Users\Joe Zuntz\Documents\usr\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NO_DEFAULT_MANIFEST=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>copy "C:\Users\Joe Zuntz\Documents\usr\lib\cfitsio.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_catalog.cc" />
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_fits.cc" />
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_gl.cc" />
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_healpix.cc" />
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_image.cc" />
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_object.cc" />
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_oculus.cc" />
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_sphere.cc" />
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_test.cc" />
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_win_image.cc" />
+    <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\color_map.cc" />
+    <ClCompile Include="source\better_system_defaults\modern_style_initialization.cpp" />
+    <ClCompile Include="source\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="source\resources.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="source\resources\main_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="source\resources\modern_style.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_catalog.hh" />
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_fits.hh" />
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_gl.hh" />
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_healpix.hh" />
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_image.hh" />
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_object.hh" />
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_oculus.hh" />
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_sphere.hh" />
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_test.hh" />
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_win_image.hh" />
+    <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\color_map.hh" />
+    <ClInclude Include="source\better_system_defaults\no_sillywarnings_please.hpp" />
+    <ClInclude Include="source\better_system_defaults\windows_h.config.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\GitHubVisualStudio\astrovr\shaders\sphere\fragment.shader" />
+    <None Include="..\..\..\..\GitHubVisualStudio\astrovr\shaders\sphere\vertex.shader" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
