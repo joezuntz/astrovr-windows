@@ -1,7 +1,5 @@
 ﻿#include <windows.h>
 
-
-
 #include <objidl.h>
 #include <algorithm>
 #pragma warning(disable : 4458)
@@ -88,7 +86,7 @@ void setupMultiwavelengthUniverse() {
 	for (int i = 0; i < N_SPHERE; i++) {
 		char tile_file[1024];
 		snprintf(tile_file, 1024, "%s\\%s-tiles.png", tile_dir, tile_sets[i]);
-		AVRSphere *sphere = new AVRSphere(10.0);
+		AVRSphere *sphere = new AVRSphere(2.0-0.02f*i);
 		if (i != 0) {
 			sphere->alpha = 0.0f;
 		}
@@ -97,47 +95,76 @@ void setupMultiwavelengthUniverse() {
 		oculus->objects.push_back(sphere);
 	}
 
+	//Rotate to put the galactic centre in front of the viewer.
+	glm::mat4 model;
+	model = glm::rotate(model, glm::radians(-90.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+	model = glm::rotate(model, glm::radians(180.0f), glm::vec3(1.0f, 0.0f, 0.0f));
+	glm::mat4 reflectX = glm::mat4
+	(
+	-1.0, 0.0, 0.0, 0.0,
+	0.0, 1.0, 0.0, 0.0,
+	0.0, 0.0, 1.0, 0.0,
+	0.0, 0.0, 0.0, 1.0
+	);
+	model = reflectX*model;
+	oculus->fixedTransform = model;
+	
+
+
 }
 typedef struct MapDisplayInfo {
 	char * filename;
 	int nside;
-	float vmin;
-	float vmax;
+	float scaling;
 } MapDisplayInfo;
 #define N_HEALPIX 9
 
 MapDisplayInfo planckMaps[N_HEALPIX] = {
-	{"512_60.00smoothed_LFI_SkyMap_30_256_PR2_full.fits",   512, -0.0002f, 0.0002f},
-	{"512_60.00smoothed_LFI_SkyMap_44_256_PR2_full.fits",   512, -0.0003f, 0.0003f},
-	{"512_60.00smoothed_LFI_SkyMap_70_256_PR2_full.fits",   512, -0.0006f, 0.0006f},
-	{"512_60.00smoothed_HFI_SkyMap_100_2048_PR2_full.fits", 512, -0.001f, 0.001f},
-	{"512_60.00smoothed_HFI_SkyMap_143_2048_PR2_full.fits", 512, -0.001f, 0.001f},
-	{"512_60.00smoothed_HFI_SkyMap_217_2048_PR2_full.fits", 512, -0.001f, 0.001f},
-	{"512_60.00smoothed_HFI_SkyMap_353_2048_PR2_full.fits", 512, -0.001f, 0.01f},
-	{"512_60.00smoothed_HFI_SkyMap_545_2048_PR2_full.fits", 512, -0.001f, 5.0f},
-	{"512_60.00smoothed_HFI_SkyMap_857_2048_PR2_full.fits", 512, -0.001f, 10.0f}
+	{"512_60.00smoothed_LFI_SkyMap_30_256_PR2_full.fits",   512, 1.0e6},  //1
+	{"512_60.00smoothed_LFI_SkyMap_44_256_PR2_full.fits",   512, 1.0e6},  //2
+	{"512_60.00smoothed_LFI_SkyMap_70_256_PR2_full.fits",   512, 1.0e6},  //3
+	{"512_60.00smoothed_HFI_SkyMap_100_2048_PR2_full.fits", 512, 1.0e6},  //4
+	{"512_60.00smoothed_HFI_SkyMap_143_2048_PR2_full.fits", 512, 1.0e6},  //5
+	{"512_60.00smoothed_HFI_SkyMap_217_2048_PR2_full.fits", 512, 1.0e6},  //6
+	{"512_60.00smoothed_HFI_SkyMap_353_2048_PR2_full.fits", 512, 1.0e5},  //7
+	{"512_60.00smoothed_HFI_SkyMap_545_2048_PR2_full.fits", 512, 500.0},  //8
+	{"512_60.00smoothed_HFI_SkyMap_857_2048_PR2_full.fits", 512, 200.0}   //9
 };
 
 
 void setupPlanck() {
 	const char * base_dir = "C:\\Users\\Joe Zuntz\\Documents\\GitHubVisualStudio\\astrovr";
 	const char * map_dir = "C:\\Users\\Joe Zuntz\\Documents\\Healpix Maps\\Planck";
+	double royalSocietyLatitude = 51.505925*(M_PI/180.0);
+	double royalSocietyLongitude = -0.132485*(M_PI / 180.0);
+
 
 	for (int i = 0; i < N_HEALPIX; i++) {
 		MapDisplayInfo mapInfo = planckMaps[i];
-		JetColorMap * colorMap = new JetColorMap(mapInfo.vmin, mapInfo.vmax, false);
-
+		PlanckBrokenColorMap * colorMap = new PlanckBrokenColorMap("C:\\Users\\Joe Zuntz\\Documents\\GitHubVisualStudio\\astrovr\\planck_color_table.txt", mapInfo.scaling);
 
 		char tile_file[1024];
 		snprintf(tile_file, 1024, "%s\\%s", map_dir, mapInfo.filename);
-		AVRHealpix * healpixMap = new AVRHealpix(mapInfo.nside, 1.0f, colorMap);
-		if (i != 0) {
+		AVRHealpix * healpixMap = new AVRHealpix(mapInfo.nside, 1.0f-i*0.01f, colorMap);
+		healpixMap->latitude = royalSocietyLatitude;
+		healpixMap->longitude = royalSocietyLongitude;
+		if (i < 2) {
+			healpixMap->setAlpha(0.5f);
+		}
+		else {
 			healpixMap->setAlpha(0.0f);
+
 		}
 		healpixMap->loadStandardShaderDirectory(base_dir);
 		healpixMap->load(tile_file);
 		oculus->objects.push_back(healpixMap);
 	}
+
+	//At this point galactic north is in front of the viewer.
+	//Rotate to put the plane there
+	//glm::mat4 model;
+	//model = glm::rotate(model, glm::radians(-90.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+	//oculus->fixedTransform = model;
 
 }
 
@@ -146,11 +173,7 @@ void setupPlanck() {
 int main1(HINSTANCE hinst) {
 
 	OVR::System::Init();
-	glEnable(GL_DEPTH_TEST);
-	glEnable(GL_PROGRAM_POINT_SIZE);
-	glEnable(GL_TEXTURE_2D);
-	glEnable(GL_BLEND);
-	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
 
 	// Initialize GDI+.
 	Gdiplus::GdiplusStartupInput gdiplusStartupInput;
@@ -164,11 +187,14 @@ int main1(HINSTANCE hinst) {
 	}
 
 	oculus = new AVROculus();
-	oculus->setup(hinst);
-
-
-	//setupMultiwavelengthUniverse();
-	setupMultiwavelengthUniverse();
+	
+	
+	
+//	oculus->setup(hinst, L"The Multi-Wavelength Universe");
+//	setupMultiwavelengthUniverse();
+	
+	oculus->setup(hinst, L"The Microwave Universe with Planck");
+	setupPlanck();
 
 
 	Platform.Run(MainLoop);
@@ -190,16 +216,17 @@ int WINAPI WinMain(HINSTANCE hinst, HINSTANCE, LPSTR, int)
 		std::wstring ws(s.size() * 2, L' '); // Overestimate number of code points.
 		ws.resize(std::mbstowcs(&ws[0], s.c_str(), s.size())); // Shrink to fit.
 
-		MessageBox(0, ws.c_str(), L"Go on…", MB_ICONINFORMATION);
+		MessageBox(0, ws.c_str(), L"Error thrown in program…", MB_ICONINFORMATION);
 		return 1;
 	}
+	
 	catch (const char *e) {
 		std::string s(e);
 		std::wstring ws(s.size() * 2, L' '); // Overestimate number of code points.
 		ws.resize(std::mbstowcs(&ws[0], s.c_str(), s.size())); // Shrink to fit.
-		MessageBox(0, ws.c_str(), L"Go on…", MB_ICONINFORMATION);
+		MessageBox(0, ws.c_str(), L"Error thrown in program…", MB_ICONINFORMATION);
 		return 1;
 
 	}
-
+	
 }

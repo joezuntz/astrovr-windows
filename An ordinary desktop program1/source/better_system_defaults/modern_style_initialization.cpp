@@ -3,7 +3,7 @@
 
 #include <stdexcept>
 using std::runtime_error;
-
+/*
 static int const init = []() -> int
 {
     DWORD const icc_flags = ICC_WIN95_CLASSES;  // Minimum that works.
@@ -15,3 +15,4 @@ static int const init = []() -> int
     }
     return 42;
 }();
+*/

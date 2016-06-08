@@ -189,7 +189,7 @@
       <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <TreatSpecificWarningsAsErrors>4627</TreatSpecificWarningsAsErrors>
-      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\cxxsupport;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx;C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Include;C:\Users\Joe Zuntz\Documents\GitHubVisualStudio\astrovr;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\Samples\OculusRoomTiny_Advanced\Common;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVRKernel\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\cxxsupport;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx;C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Include;C:\Users\Joe Zuntz\Documents\GitHubVisualStudio\astrovr;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\An ordinary desktop program1\aaplus;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\Samples\OculusRoomTiny_Advanced\Common;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVRKernel\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -227,7 +227,7 @@
       <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <TreatSpecificWarningsAsErrors>4627</TreatSpecificWarningsAsErrors>
-      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\cxxsupport;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx;C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Include;C:\Users\Joe Zuntz\Documents\GitHubVisualStudio\astrovr;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\Samples\OculusRoomTiny_Advanced\Common;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVRKernel\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\cxxsupport;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx;C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Include;C:\Users\Joe Zuntz\Documents\GitHubVisualStudio\astrovr;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\An ordinary desktop program1\aaplus;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\Samples\OculusRoomTiny_Advanced\Common;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVRKernel\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -301,7 +301,7 @@
       <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <TreatSpecificWarningsAsErrors>4627</TreatSpecificWarningsAsErrors>
-      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\cxxsupport;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx;C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Include;C:\Users\Joe Zuntz\Documents\GitHubVisualStudio\astrovr;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\Samples\OculusRoomTiny_Advanced\Common;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVRKernel\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\cxxsupport;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx;C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Include;C:\Users\Joe Zuntz\Documents\GitHubVisualStudio\astrovr;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\An ordinary desktop program1\aaplus;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\Samples\OculusRoomTiny_Advanced\Common;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVRKernel\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -332,11 +332,117 @@
     <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_test.cc" />
     <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_win_image.cc" />
     <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\color_map.cc" />
-    <ClCompile Include="source\better_system_defaults\modern_style_initialization.cpp" />
+    <ClCompile Include="..\aaplus\AAAberration.cpp" />
+    <ClCompile Include="..\aaplus\AAAngularSeparation.cpp" />
+    <ClCompile Include="..\aaplus\AABinaryStar.cpp" />
+    <ClCompile Include="..\aaplus\AACoordinateTransformation.cpp" />
+    <ClCompile Include="..\aaplus\AADate.cpp" />
+    <ClCompile Include="..\aaplus\AADiameters.cpp" />
+    <ClCompile Include="..\aaplus\AADynamicalTime.cpp" />
+    <ClCompile Include="..\aaplus\AAEarth.cpp" />
+    <ClCompile Include="..\aaplus\AAEaster.cpp" />
+    <ClCompile Include="..\aaplus\AAEclipses.cpp" />
+    <ClCompile Include="..\aaplus\AAEclipticalElements.cpp" />
+    <ClCompile Include="..\aaplus\AAElementsPlanetaryOrbit.cpp" />
+    <ClCompile Include="..\aaplus\AAElliptical.cpp" />
+    <ClCompile Include="..\aaplus\AAELP2000.cpp" />
+    <ClCompile Include="..\aaplus\AAEquationOfTime.cpp" />
+    <ClCompile Include="..\aaplus\AAEquinoxesAndSolstices.cpp" />
+    <ClCompile Include="..\aaplus\AAFK5.cpp" />
+    <ClCompile Include="..\aaplus\AAGalileanMoons.cpp" />
+    <ClCompile Include="..\aaplus\AAGlobe.cpp" />
+    <ClCompile Include="..\aaplus\AAIlluminatedFraction.cpp" />
+    <ClCompile Include="..\aaplus\AAInterpolate.cpp" />
+    <ClCompile Include="..\aaplus\AAJewishCalendar.cpp" />
+    <ClCompile Include="..\aaplus\AAJupiter.cpp" />
+    <ClCompile Include="..\aaplus\AAKepler.cpp" />
+    <ClCompile Include="..\aaplus\AAMars.cpp" />
+    <ClCompile Include="..\aaplus\AAMercury.cpp" />
+    <ClCompile Include="..\aaplus\AAMoon.cpp" />
+    <ClCompile Include="..\aaplus\AAMoonIlluminatedFraction.cpp" />
+    <ClCompile Include="..\aaplus\AAMoonMaxDeclinations.cpp" />
+    <ClCompile Include="..\aaplus\AAMoonNodes.cpp" />
+    <ClCompile Include="..\aaplus\AAMoonPerigeeApogee.cpp" />
+    <ClCompile Include="..\aaplus\AAMoonPhases.cpp" />
+    <ClCompile Include="..\aaplus\AAMoslemCalendar.cpp" />
+    <ClCompile Include="..\aaplus\AANearParabolic.cpp" />
+    <ClCompile Include="..\aaplus\AANeptune.cpp" />
+    <ClCompile Include="..\aaplus\AANodes.cpp" />
+    <ClCompile Include="..\aaplus\AANutation.cpp" />
+    <ClCompile Include="..\aaplus\AAParabolic.cpp" />
+    <ClCompile Include="..\aaplus\AAParallactic.cpp" />
+    <ClCompile Include="..\aaplus\AAParallax.cpp" />
+    <ClCompile Include="..\aaplus\AAPhysicalJupiter.cpp" />
+    <ClCompile Include="..\aaplus\AAPhysicalMars.cpp" />
+    <ClCompile Include="..\aaplus\AAPhysicalMoon.cpp" />
+    <ClCompile Include="..\aaplus\AAPhysicalSun.cpp" />
+    <ClCompile Include="..\aaplus\AAPlanetaryPhenomena.cpp" />
+    <ClCompile Include="..\aaplus\AAPlanetPerihelionAphelion.cpp" />
+    <ClCompile Include="..\aaplus\AAPluto.cpp" />
+    <ClCompile Include="..\aaplus\AAPrecession.cpp" />
+    <ClCompile Include="..\aaplus\AARefraction.cpp" />
+    <ClCompile Include="..\aaplus\AARiseTransitSet.cpp" />
+    <ClCompile Include="..\aaplus\AASaturn.cpp" />
+    <ClCompile Include="..\aaplus\AASaturnMoons.cpp" />
+    <ClCompile Include="..\aaplus\AASaturnRings.cpp" />
+    <ClCompile Include="..\aaplus\AASidereal.cpp" />
+    <ClCompile Include="..\aaplus\AAStellarMagnitudes.cpp" />
+    <ClCompile Include="..\aaplus\AASun.cpp" />
+    <ClCompile Include="..\aaplus\AAUranus.cpp" />
+    <ClCompile Include="..\aaplus\AAVenus.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87A_EAR.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87A_EMB.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87A_JUP.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87A_MAR.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87A_MER.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87A_NEP.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87A_SAT.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87A_URA.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87A_VEN.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87B_EAR.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87B_JUP.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87B_MAR.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87B_MER.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87B_NEP.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87B_SAT.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87B_URA.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87B_VEN.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87C_EAR.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87C_JUP.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87C_MAR.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87C_MER.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87C_NEP.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87C_SAT.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87C_URA.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87C_VEN.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87D_EAR.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87D_JUP.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87D_MAR.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87D_MER.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87D_NEP.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87D_SAT.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87D_URA.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87D_VEN.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87E_EAR.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87E_JUP.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87E_MAR.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87E_MER.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87E_NEP.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87E_SAT.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87E_SUN.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87E_URA.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87E_VEN.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87_EMB.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87_JUP.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87_MAR.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87_MER.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87_NEP.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87_SAT.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87_URA.cpp" />
+    <ClCompile Include="..\aaplus\AAVSOP87_VEN.cpp" />
+    <ClCompile Include="..\aaplus\stdafx.cpp" />
     <ClCompile Include="source\main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="source\resources.rc" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="source\resources\main_icon.ico" />
@@ -356,10 +462,126 @@
     <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_test.hh" />
     <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_win_image.hh" />
     <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\color_map.hh" />
+    <ClInclude Include="..\aaplus\AA+.h" />
+    <ClInclude Include="..\aaplus\AA2DCoordinate.h" />
+    <ClInclude Include="..\aaplus\AA3DCoordinate.h" />
+    <ClInclude Include="..\aaplus\AAAberration.h" />
+    <ClInclude Include="..\aaplus\AAAngularSeparation.h" />
+    <ClInclude Include="..\aaplus\AABinaryStar.h" />
+    <ClInclude Include="..\aaplus\AACoordinateTransformation.h" />
+    <ClInclude Include="..\aaplus\AADate.h" />
+    <ClInclude Include="..\aaplus\AADiameters.h" />
+    <ClInclude Include="..\aaplus\AADynamicalTime.h" />
+    <ClInclude Include="..\aaplus\AAEarth.h" />
+    <ClInclude Include="..\aaplus\AAEaster.h" />
+    <ClInclude Include="..\aaplus\AAEclipses.h" />
+    <ClInclude Include="..\aaplus\AAEclipticalElements.h" />
+    <ClInclude Include="..\aaplus\AAElementsPlanetaryOrbit.h" />
+    <ClInclude Include="..\aaplus\AAElliptical.h" />
+    <ClInclude Include="..\aaplus\AAELP2000.h" />
+    <ClInclude Include="..\aaplus\AAEquationOfTime.h" />
+    <ClInclude Include="..\aaplus\AAEquinoxesAndSolstices.h" />
+    <ClInclude Include="..\aaplus\AAFK5.h" />
+    <ClInclude Include="..\aaplus\AAGalileanMoons.h" />
+    <ClInclude Include="..\aaplus\AAGlobe.h" />
+    <ClInclude Include="..\aaplus\AAIlluminatedFraction.h" />
+    <ClInclude Include="..\aaplus\AAInterpolate.h" />
+    <ClInclude Include="..\aaplus\AAJewishCalendar.h" />
+    <ClInclude Include="..\aaplus\AAJupiter.h" />
+    <ClInclude Include="..\aaplus\AAKepler.h" />
+    <ClInclude Include="..\aaplus\AAMars.h" />
+    <ClInclude Include="..\aaplus\AAMercury.h" />
+    <ClInclude Include="..\aaplus\AAMoon.h" />
+    <ClInclude Include="..\aaplus\AAMoonIlluminatedFraction.h" />
+    <ClInclude Include="..\aaplus\AAMoonMaxDeclinations.h" />
+    <ClInclude Include="..\aaplus\AAMoonNodes.h" />
+    <ClInclude Include="..\aaplus\AAMoonPerigeeApogee.h" />
+    <ClInclude Include="..\aaplus\AAMoonPhases.h" />
+    <ClInclude Include="..\aaplus\AAMoslemCalendar.h" />
+    <ClInclude Include="..\aaplus\AANearParabolic.h" />
+    <ClInclude Include="..\aaplus\AANeptune.h" />
+    <ClInclude Include="..\aaplus\AANodes.h" />
+    <ClInclude Include="..\aaplus\AANutation.h" />
+    <ClInclude Include="..\aaplus\AAParabolic.h" />
+    <ClInclude Include="..\aaplus\AAParallactic.h" />
+    <ClInclude Include="..\aaplus\AAParallax.h" />
+    <ClInclude Include="..\aaplus\AAPhysicalJupiter.h" />
+    <ClInclude Include="..\aaplus\AAPhysicalMars.h" />
+    <ClInclude Include="..\aaplus\AAPhysicalMoon.h" />
+    <ClInclude Include="..\aaplus\AAPhysicalSun.h" />
+    <ClInclude Include="..\aaplus\AAPlanetaryPhenomena.h" />
+    <ClInclude Include="..\aaplus\AAPlanetPerihelionAphelion.h" />
+    <ClInclude Include="..\aaplus\AAPluto.h" />
+    <ClInclude Include="..\aaplus\AAPrecession.h" />
+    <ClInclude Include="..\aaplus\AARefraction.h" />
+    <ClInclude Include="..\aaplus\AARiseTransitSet.h" />
+    <ClInclude Include="..\aaplus\AASaturn.h" />
+    <ClInclude Include="..\aaplus\AASaturnMoons.h" />
+    <ClInclude Include="..\aaplus\AASaturnRings.h" />
+    <ClInclude Include="..\aaplus\AASidereal.h" />
+    <ClInclude Include="..\aaplus\AAStellarMagnitudes.h" />
+    <ClInclude Include="..\aaplus\AASun.h" />
+    <ClInclude Include="..\aaplus\AAUranus.h" />
+    <ClInclude Include="..\aaplus\AAVenus.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87A_EAR.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87A_EMB.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87A_JUP.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87A_MAR.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87A_MER.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87A_NEP.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87A_SAT.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87A_URA.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87A_VEN.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87B_EAR.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87B_JUP.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87B_MAR.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87B_MER.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87B_NEP.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87B_SAT.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87B_URA.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87B_VEN.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87C_EAR.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87C_JUP.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87C_MAR.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87C_MER.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87C_NEP.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87C_SAT.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87C_URA.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87C_VEN.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87D_EAR.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87D_JUP.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87D_MAR.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87D_MER.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87D_NEP.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87D_SAT.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87D_URA.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87D_VEN.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87E_EAR.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87E_JUP.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87E_MAR.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87E_MER.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87E_NEP.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87E_SAT.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87E_SUN.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87E_URA.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87E_VEN.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87_EMB.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87_JUP.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87_MAR.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87_MER.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87_NEP.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87_SAT.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87_URA.h" />
+    <ClInclude Include="..\aaplus\AAVSOP87_VEN.h" />
+    <ClInclude Include="..\aaplus\stdafx.h" />
     <ClInclude Include="source\better_system_defaults\no_sillywarnings_please.hpp" />
     <ClInclude Include="source\better_system_defaults\windows_h.config.hpp" />
+    <ClInclude Include="source\resource.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\..\..\GitHubVisualStudio\astrovr\shaders\healpix\fragment.shader" />
+    <None Include="..\..\..\..\GitHubVisualStudio\astrovr\shaders\healpix\vertex.shader" />
     <None Include="..\..\..\..\GitHubVisualStudio\astrovr\shaders\sphere\fragment.shader" />
     <None Include="..\..\..\..\GitHubVisualStudio\astrovr\shaders\sphere\vertex.shader" />
   </ItemGroup>

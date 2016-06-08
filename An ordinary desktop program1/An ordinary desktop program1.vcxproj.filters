@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx;h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
@@ -15,11 +11,16 @@
     <Filter Include="Resource Files\sphere">
       <UniqueIdentifier>{7266db7d-9aea-43f4-9849-77050bc0b758}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="source\resources.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
+    <Filter Include="AAPlus">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx;h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{2e38b7a5-9f85-4224-8bcf-917bf805200d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\healpix">
+      <UniqueIdentifier>{b6166405-4804-4fed-bf44-9ac1f85529b3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="source\resources\modern_style.manifest" />
@@ -30,12 +31,6 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="source\better_system_defaults\modern_style_initialization.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_catalog.cc">
       <Filter>AstroVR</Filter>
     </ClCompile>
@@ -69,14 +64,341 @@
     <ClCompile Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_healpix.cc">
       <Filter>AstroVR</Filter>
     </ClCompile>
+    <ClCompile Include="..\aaplus\AAAberration.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAAngularSeparation.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AABinaryStar.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AACoordinateTransformation.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AADate.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AADiameters.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AADynamicalTime.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAEarth.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAEaster.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAEclipses.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAEclipticalElements.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAElementsPlanetaryOrbit.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAElliptical.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAELP2000.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAEquationOfTime.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAEquinoxesAndSolstices.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAFK5.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAGalileanMoons.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAGlobe.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAIlluminatedFraction.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAInterpolate.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAJewishCalendar.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAJupiter.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAKepler.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAMars.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAMercury.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAMoon.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAMoonIlluminatedFraction.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAMoonMaxDeclinations.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAMoonNodes.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAMoonPerigeeApogee.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAMoonPhases.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAMoslemCalendar.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AANearParabolic.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AANeptune.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AANodes.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AANutation.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAParabolic.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAParallactic.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAParallax.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAPhysicalJupiter.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAPhysicalMars.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAPhysicalMoon.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAPhysicalSun.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAPlanetaryPhenomena.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAPlanetPerihelionAphelion.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAPluto.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAPrecession.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AARefraction.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AARiseTransitSet.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AASaturn.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AASaturnMoons.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AASaturnRings.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AASidereal.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAStellarMagnitudes.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AASun.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAUranus.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVenus.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87A_EAR.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87A_EMB.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87A_JUP.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87A_MAR.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87A_MER.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87A_NEP.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87A_SAT.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87A_URA.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87A_VEN.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87B_EAR.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87B_JUP.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87B_MAR.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87B_MER.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87B_NEP.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87B_SAT.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87B_URA.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87B_VEN.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87C_EAR.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87C_JUP.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87C_MAR.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87C_MER.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87C_NEP.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87C_SAT.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87C_URA.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87C_VEN.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87D_EAR.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87D_JUP.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87D_MAR.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87D_MER.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87D_NEP.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87D_SAT.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87D_URA.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87D_VEN.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87E_EAR.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87E_JUP.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87E_MAR.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87E_MER.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87E_NEP.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87E_SAT.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87E_SUN.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87E_URA.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87E_VEN.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87_EMB.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87_JUP.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87_MAR.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87_MER.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87_NEP.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87_SAT.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87_URA.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\AAVSOP87_VEN.cpp">
+      <Filter>AAPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aaplus\stdafx.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source\better_system_defaults\windows_h.config.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="source\better_system_defaults\no_sillywarnings_please.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_catalog.hh">
       <Filter>AstroVR</Filter>
     </ClInclude>
@@ -110,6 +432,354 @@
     <ClInclude Include="..\..\..\..\GitHubVisualStudio\astrovr\avr_healpix.hh">
       <Filter>AstroVR</Filter>
     </ClInclude>
+    <ClInclude Include="..\aaplus\AA+.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AA2DCoordinate.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AA3DCoordinate.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAAberration.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAAngularSeparation.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AABinaryStar.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AACoordinateTransformation.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AADate.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AADiameters.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AADynamicalTime.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAEarth.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAEaster.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAEclipses.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAEclipticalElements.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAElementsPlanetaryOrbit.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAElliptical.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAELP2000.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAEquationOfTime.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAEquinoxesAndSolstices.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAFK5.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAGalileanMoons.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAGlobe.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAIlluminatedFraction.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAInterpolate.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAJewishCalendar.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAJupiter.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAKepler.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAMars.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAMercury.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAMoon.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAMoonIlluminatedFraction.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAMoonMaxDeclinations.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAMoonNodes.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAMoonPerigeeApogee.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAMoonPhases.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAMoslemCalendar.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AANearParabolic.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AANeptune.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AANodes.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AANutation.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAParabolic.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAParallactic.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAParallax.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAPhysicalJupiter.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAPhysicalMars.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAPhysicalMoon.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAPhysicalSun.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAPlanetaryPhenomena.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAPlanetPerihelionAphelion.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAPluto.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAPrecession.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AARefraction.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AARiseTransitSet.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AASaturn.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AASaturnMoons.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AASaturnRings.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AASidereal.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAStellarMagnitudes.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AASun.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAUranus.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVenus.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87A_EAR.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87A_EMB.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87A_JUP.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87A_MAR.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87A_MER.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87A_NEP.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87A_SAT.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87A_URA.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87A_VEN.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87B_EAR.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87B_JUP.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87B_MAR.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87B_MER.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87B_NEP.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87B_SAT.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87B_URA.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87B_VEN.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87C_EAR.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87C_JUP.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87C_MAR.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87C_MER.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87C_NEP.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87C_SAT.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87C_URA.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87C_VEN.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87D_EAR.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87D_JUP.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87D_MAR.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87D_MER.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87D_NEP.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87D_SAT.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87D_URA.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87D_VEN.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87E_EAR.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87E_JUP.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87E_MAR.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87E_MER.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87E_NEP.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87E_SAT.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87E_SUN.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87E_URA.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87E_VEN.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87_EMB.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87_JUP.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87_MAR.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87_MER.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87_NEP.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87_SAT.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87_URA.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\AAVSOP87_VEN.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="source\better_system_defaults\no_sillywarnings_please.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\stdafx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="source\better_system_defaults\windows_h.config.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="source\resource.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\GitHubVisualStudio\astrovr\shaders\sphere\vertex.shader">
@@ -117,6 +787,12 @@
     </None>
     <None Include="..\..\..\..\GitHubVisualStudio\astrovr\shaders\sphere\fragment.shader">
       <Filter>Resource Files\sphere</Filter>
+    </None>
+    <None Include="..\..\..\..\GitHubVisualStudio\astrovr\shaders\healpix\fragment.shader">
+      <Filter>Resource Files\healpix</Filter>
+    </None>
+    <None Include="..\..\..\..\GitHubVisualStudio\astrovr\shaders\healpix\vertex.shader">
+      <Filter>Resource Files\healpix</Filter>
     </None>
   </ItemGroup>
 </Project>
