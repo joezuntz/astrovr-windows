@@ -394,8 +394,17 @@
     <ClCompile Include="source\main.cpp">
       <Filter>Main</Filter>
     </ClCompile>
-    <ClCompile Include="..\aaplus\stdafx.cpp">
-      <Filter>Main</Filter>
+    <ClCompile Include="avr_timeline.cpp">
+      <Filter>AstroVR</Filter>
+    </ClCompile>
+    <ClCompile Include="avr_oculus_timeline.cpp">
+      <Filter>AstroVR</Filter>
+    </ClCompile>
+    <ClCompile Include="avr_soundplayer.cpp">
+      <Filter>AstroVR</Filter>
+    </ClCompile>
+    <ClCompile Include="avr_main.cpp">
+      <Filter>AstroVR</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -771,13 +780,34 @@
     <ClInclude Include="source\better_system_defaults\no_sillywarnings_please.hpp">
       <Filter>Main</Filter>
     </ClInclude>
-    <ClInclude Include="..\aaplus\stdafx.h">
-      <Filter>Main</Filter>
-    </ClInclude>
     <ClInclude Include="source\better_system_defaults\windows_h.config.hpp">
       <Filter>Main</Filter>
     </ClInclude>
     <ClInclude Include="source\resource.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="avr_timeline.h">
+      <Filter>AstroVR</Filter>
+    </ClInclude>
+    <ClInclude Include="avr_oculus_timeline.h">
+      <Filter>AstroVR</Filter>
+    </ClInclude>
+    <ClInclude Include="avr_soundplayer.h">
+      <Filter>AstroVR</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>AAPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="avr_main.h">
+      <Filter>AstroVR</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aaplus\stdafx.h">
       <Filter>AAPlus</Filter>
     </ClInclude>
   </ItemGroup>
@@ -794,5 +824,15 @@
     <None Include="..\..\..\..\GitHubVisualStudio\astrovr\shaders\healpix\vertex.shader">
       <Filter>Resource Files\healpix</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\..\Music\oculusshorttour1.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AstroVR1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

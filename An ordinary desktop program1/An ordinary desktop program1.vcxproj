@@ -189,7 +189,7 @@
       <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <TreatSpecificWarningsAsErrors>4627</TreatSpecificWarningsAsErrors>
-      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\cxxsupport;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx;C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Include;C:\Users\Joe Zuntz\Documents\GitHubVisualStudio\astrovr;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\An ordinary desktop program1\aaplus;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\Samples\OculusRoomTiny_Advanced\Common;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVRKernel\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\cxxsupport;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx;C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Include;C:\Users\Joe Zuntz\Documents\GitHubVisualStudio\astrovr;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\An ordinary desktop program1\aaplus;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\Samples\OculusRoomTiny_Advanced\Common;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVRKernel\Src;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\An ordinary desktop program1\An ordinary desktop program1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -201,6 +201,8 @@
       <AdditionalLibraryDirectories>C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\An ordinary desktop program1\x64\Debug;C:\Users\Joe Zuntz\Documents\usr\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>
       </AdditionalOptions>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
     </Link>
     <ResourceCompile>
       <PreprocessorDefinitions>NO_DEFAULT_MANIFEST=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -227,7 +229,7 @@
       <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <TreatSpecificWarningsAsErrors>4627</TreatSpecificWarningsAsErrors>
-      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\cxxsupport;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx;C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Include;C:\Users\Joe Zuntz\Documents\GitHubVisualStudio\astrovr;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\An ordinary desktop program1\aaplus;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\Samples\OculusRoomTiny_Advanced\Common;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVRKernel\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\cxxsupport;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx;C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Include;C:\Users\Joe Zuntz\Documents\GitHubVisualStudio\astrovr;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\An ordinary desktop program1\aaplus;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\Samples\OculusRoomTiny_Advanced\Common;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVRKernel\Src;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\An ordinary desktop program1\An ordinary desktop program1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -244,6 +246,8 @@
       <AdditionalLibraryDirectories>C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\An ordinary desktop program1\x64\Release2;C:\Users\Joe Zuntz\Documents\usr\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>
       </AdditionalOptions>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
     </Link>
     <ResourceCompile>
       <PreprocessorDefinitions>NO_DEFAULT_MANIFEST=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -301,7 +305,7 @@
       <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <TreatSpecificWarningsAsErrors>4627</TreatSpecificWarningsAsErrors>
-      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\cxxsupport;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx;C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Include;C:\Users\Joe Zuntz\Documents\GitHubVisualStudio\astrovr;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\An ordinary desktop program1\aaplus;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\Samples\OculusRoomTiny_Advanced\Common;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVRKernel\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\cxxsupport;C:\Users\Joe Zuntz\Documents\Dependencies\Healpix_3.30\src\cxx\Healpix_cxx;C:\Users\Joe Zuntz\Documents\usr\include;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVR\Include;C:\Users\Joe Zuntz\Documents\GitHubVisualStudio\astrovr;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\An ordinary desktop program1\aaplus;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\Samples\OculusRoomTiny_Advanced\Common;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\OculusSDK\LibOVRKernel\Src;C:\Users\Joe Zuntz\Documents\Visual Studio 2015\Projects\An ordinary desktop program1\An ordinary desktop program1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -441,7 +445,10 @@
     <ClCompile Include="..\aaplus\AAVSOP87_SAT.cpp" />
     <ClCompile Include="..\aaplus\AAVSOP87_URA.cpp" />
     <ClCompile Include="..\aaplus\AAVSOP87_VEN.cpp" />
-    <ClCompile Include="..\aaplus\stdafx.cpp" />
+    <ClCompile Include="avr_main.cpp" />
+    <ClCompile Include="avr_soundplayer.cpp" />
+    <ClCompile Include="avr_timeline.cpp" />
+    <ClCompile Include="avr_oculus_timeline.cpp" />
     <ClCompile Include="source\main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -575,9 +582,16 @@
     <ClInclude Include="..\aaplus\AAVSOP87_URA.h" />
     <ClInclude Include="..\aaplus\AAVSOP87_VEN.h" />
     <ClInclude Include="..\aaplus\stdafx.h" />
+    <ClInclude Include="avr_main.h" />
+    <ClInclude Include="avr_soundplayer.h" />
+    <ClInclude Include="avr_timeline.h" />
+    <ClInclude Include="avr_oculus_timeline.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
     <ClInclude Include="source\better_system_defaults\no_sillywarnings_please.hpp" />
     <ClInclude Include="source\better_system_defaults\windows_h.config.hpp" />
     <ClInclude Include="source\resource.h" />
+    <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\GitHubVisualStudio\astrovr\shaders\healpix\fragment.shader" />
@@ -585,7 +599,18 @@
     <None Include="..\..\..\..\GitHubVisualStudio\astrovr\shaders\sphere\fragment.shader" />
     <None Include="..\..\..\..\GitHubVisualStudio\astrovr\shaders\sphere\vertex.shader" />
   </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\..\Music\oculusshorttour1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AstroVR1.rc" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="AstroVR1.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
